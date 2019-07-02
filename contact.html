@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <title>株式会社</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header clearfix">
+                <a href="index.html"><img src="./images/logo.png" class="logo_image"></a>
+                <nav>
+                    <ul class="top_menu">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="business.html">事業内容</a></li>
+                        <li><a href="company.html">会社概要</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <img src="./images/contact.png" class="image_area">
+            <div class="wrapper clearfix">
+                <aside class="side_menu">
+                    <ul>
+                        <li><a href="business.html">事業内容</a></li>
+                        <li><a href="company.html">会社概要</a></li>
+                        <li class="point"><a href="#">お問い合わせ</a></li>
+                    </ul>
+                    <p class="banner">
+                        <a href="#">
+                            <img src="./images/banner.png">
+                        </a>
+                    </p>
+                </aside>
+                <article class="content">
+                    <div class="contact_form">
+                        <form method="post" name="contact_form">
+                            <table>
+                                <tr>
+                                    <td>お名前</td>
+                                    <td><input type="text" name="name"></input></td>
+                                </tr>
+                                <tr>
+                                    <td>メールアドレス</td>
+                                    <td><input type="text" name="email"></input></td>
+                                </tr>
+                                <tr>
+                                    <td>性別</td>
+                                    <td>
+                                        <span>男<input type="radio" value="male" name="sex" checked="checked"></input></span>
+                                        <span>女<input type="radio" value="female" name="sex"></input></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>お問い合わせ内容</td>
+                                    <td><textarea name="contact"></textarea></td>
+                                </tr>
+                            </table>
+                            <a href="javascript:contact_form.submit()" class="btn_submit"><input type="hidden" name="submit">送信</a>
+                        </form>
+                    </div>
+                </article>
+            </div>
+            <footer class="footer">
+                <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+            </footer>
+        </div>
+    </body>
+</html>

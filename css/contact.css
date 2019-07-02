@@ -1,0 +1,32 @@
+.contact_form td{
+    width:480px;
+    height: 7rem;
+    box-sizing: border-box;
+}
+.contact_form td:nth-child(odd){
+    width:150px;
+    padding-right: 10px;
+    text-align: right;
+}
+.contact_form td input,.contact_form td textarea{
+    width: 480px;
+}
+.contact_form td span,.contact_form td span input{
+    margin: 0 0.5rem;
+    width: auto;
+}
+.btn_submit{
+    width:80px;
+    padding: 20px;
+    margin: 60px auto;
+    background:#f5b4b3;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+}
+.btn_submit:hover{
+    opacity:0.5;
+}
